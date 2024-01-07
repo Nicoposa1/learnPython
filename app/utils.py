@@ -24,8 +24,6 @@ def get_world_percentage(data):
         country['World Population Percentage'] = percentage
     return data
 
-
-
 def population_by_country(data, country):
     result = list(
         filter(lambda item: item['Country/Territory'] == country, data))
